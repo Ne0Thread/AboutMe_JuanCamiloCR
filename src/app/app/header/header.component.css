@@ -57,7 +57,113 @@
     
     
   }
-  .p{
+  .p,h1,h2,h3,h4{
     align: center;
+    font-family: luminari;
   }
-  
+  .compras{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div-compra{
+    margin: auto;
+    margin-top: 15px;
+    /*background-color: rgb(214, 166, 166);*/
+    background-color:#566573;
+    width: 80%;
+    border-radius: 15px;
+    transition:  all 0.4s;
+}
+.div-enlaces-card{
+    margin: auto;
+    margin-top: 15px;
+    /*background-color: rgb(214, 166, 166);*/
+    background-color: #d5dbdb ;
+    width: 100%;
+    border-radius: 10px;
+    transition:  all 0.4s;
+}
+.div-enlaces-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.div-text-card{
+   margin: auto;
+    margin-top: 15px;
+    /*background-color: rgb(214, 166, 166);*/
+    background-color: #d5dbdb ;
+    width: 90%;
+    border-radius: 10px;
+    transition:  all 0.4s;
+}
+.div-text-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.div-compra:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.img-compra{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    width: 70%;
+    border-radius: 15px;
+    transition:  all 0.4s;
+}
+.img-compra-persona{
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: center;
+  width: 70%;
+  border-radius: 60%;
+  transition:  all 0.4s;
+}
+.img-compra-persona:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.div-video{
+  display: block;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    width: 70%;
+    border-radius: 15px;
+    transition:  all 0.4s;
+}
+.div-video:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.img-compra:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 12px 16px rgba(0,0,0,0.2);
+}
+.cantidad{
+    outline: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    background-color: rgb(230, 198, 198);
+}
+.comprar{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: rgb(230, 198, 198);
+    cursor: pointer;
+}
+.comprar:hover{
+    background-color: rgb(248, 222, 222);
+    transition: 0.4s;
+}
